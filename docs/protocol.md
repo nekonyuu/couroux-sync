@@ -3,7 +3,7 @@
 The protocol is simply text-based, as we don't need that much 
 information passed between nodes.
 
-## Hearbeats
+## Heartbeats
 
 Each node shall announce its presence by sending a multicast packet 
 on the network containing `<hostname>|ANY1 GOT SAMMICH?`, sent 
